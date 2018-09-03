@@ -4,7 +4,7 @@ import json
 import time
 from PIL import Image, ImageDraw, ImageFont
 import textwrap
-
+import config
 
 '''
 The module I'm using is twitter-python (not to be confused with tweepy!)
@@ -12,10 +12,10 @@ The module I'm using is twitter-python (not to be confused with tweepy!)
 Attribution
 https://python-twitter.readthedocs.io/en/latest/twitter.html#twitter.api.Api.GetFavorites
 '''
-api = twitter.Api(consumer_key='exhlWKNyPWTiqbosDpfeCWiab',
-                  consumer_secret='MeTmi2gppXL5trfIxGWuGBvyidPhqkvgj1hqfzTuUYBxhiqUp4',
-                  access_token_key='1300269162-sZPVa1NcE5Fd3oVwCvjYBFxmWMS4QsXU5gTuX6z',
-                  access_token_secret='y926DgKXS3RKLfvFncxOsRWa1gECk0s5xoQEmTIxOghWi',
+api = twitter.Api(consumer_key = config.consumer_key,
+                  consumer_secret = config.consumer_secret,
+                  access_token_key = config.access_token_key,
+                  access_token_secret = config.access_token_key,
                   tweet_mode='extended') # Without this condition Tweets will be truncated
 
 def main():
