@@ -1,7 +1,8 @@
-I enjoy re-reading old Tweets I favorited.
+I enjoy re-reading old Tweets. This project was inspired by all of the wisdom shared on Twitter.
 
-My motivation was to experience and share them, like quotes people pleasantly stylize and frame.
+It supports
+- Fetching favorited Tweet content
+- Creating images intended to look like a nicely framed quote
+- From there, upload the images to a digital picture frame, share them, etc.
 
 The fastest way to get started is to [download](https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive) your Twitter account history.
-
-To display them, I use an Aluratek 8" LCD digital photo frame.
