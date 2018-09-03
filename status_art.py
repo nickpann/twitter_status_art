@@ -15,7 +15,7 @@ https://python-twitter.readthedocs.io/en/latest/twitter.html#twitter.api.Api.Get
 api = twitter.Api(consumer_key = config.consumer_key,
                   consumer_secret = config.consumer_secret,
                   access_token_key = config.access_token_key,
-                  access_token_secret = config.access_token_key,
+                  access_token_secret = config.access_token_secret,
                   tweet_mode='extended') # Without this condition Tweets will be truncated
 
 def main():
